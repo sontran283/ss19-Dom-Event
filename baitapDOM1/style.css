@@ -1,0 +1,65 @@
+* {
+    font-family: monospace;
+}
+
+/* bai2 */
+.container {
+    width: auto;
+    height: 200px;
+    position: relative;
+}
+
+.box2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(66, 64, 60, 0.5);
+}
+
+.box3 {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    background-color: white;
+}
+
+
+/* bai 3 */
+.change {
+    /* width: 100vw;
+    height: 25vh;
+    background-color: rgb(140, 255, 127);
+    display: flex;
+    gap: 20px;
+    padding: 20px; */
+    display: flex;
+    gap: 10px;
+    background-color: aquamarine;
+    padding: 30px;
+}
+
+.boxA {
+    border: 1px solid;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.boxB {
+    border: 1px solid;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.boxC {
+    border: 1px solid;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
